@@ -54,7 +54,7 @@ function App () {
   return (
     <>
       <header>
-        <button onClick={addResource}>Add a resource</button>
+        <button onClick={addResource}>Add resource</button>
       </header>
       <main>
         <CreateResource toggleModal={toggleModal} contract={contract} />
